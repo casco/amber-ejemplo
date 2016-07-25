@@ -25,9 +25,9 @@ require.config({
     "amber/legacy": "bower_components/amber-contrib-legacy/src",
     "amber/legacy/resources": "bower_components/amber-contrib-legacy/resources",
     "amber/jquery": "bower_components/amber-contrib-jquery/src",
+    "amber/es2015-polyfills": "bower_components/amber-compat-es2015/index",
     "amber": "bower_components/amber/support",
     "amber_core": "bower_components/amber/src",
-    "amber/es2015-polyfills": "bower_components/amber-compat-es2015/index",
     "amber-amberejemplo": "src"
   },
   "shim": {
@@ -55,9 +55,6 @@ require.config({
         "css!bootstrap/css/bootstrap"
       ]
     },
-    "ensure-console": {
-      "exports": "console"
-    },
     "amber/browser-compatibility": {
       "deps": [
         "./es2015-polyfills"
@@ -67,6 +64,9 @@ require.config({
       "deps": [
         "./es2015-polyfills"
       ]
+    },
+    "ensure-console": {
+      "exports": "console"
     }
   },
   "map": {

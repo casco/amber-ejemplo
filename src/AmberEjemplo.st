@@ -3,6 +3,8 @@ Smalltalk createPackage: 'AmberEjemplo'!
 Object subclass: #AmberEjemplo
 	instanceVariableNames: ''
 	package: 'AmberEjemplo'!
+!AmberEjemplo commentStamp!
+asdfasdf!
 
 !AmberEjemplo methodsFor: 'action'!
 

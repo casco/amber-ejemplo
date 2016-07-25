@@ -14,6 +14,9 @@ $core.packages["AmberEjemplo"].imports = ["amber/jquery/Wrappers-JQuery", "amber
 $core.packages["AmberEjemplo"].transport = {"type":"amd","amdNamespace":"amber-amberejemplo"};
 
 $core.addClass('AmberEjemplo', $globals.Object, [], 'AmberEjemplo');
+//>>excludeStart("ide", pragmas.excludeIdeData);
+$globals.AmberEjemplo.comment="asdfasdf";
+//>>excludeEnd("ide");
 $core.addMethod(
 $core.method({
 selector: "augmentPage",
